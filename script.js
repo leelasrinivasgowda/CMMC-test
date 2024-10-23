@@ -1,6 +1,6 @@
-var margin = { top: 20, right: 200, bottom: 20, left: 120 },
-    width = 2000 - margin.right - margin.left,
-    height = 1000 - margin.top - margin.bottom;
+var margin = { top: 20, right: 250, bottom: 20, left: 150 },
+    width = 2000 - margin.right - margin.left, // Large enough to allow horizontal scroll
+    height = 1000 - margin.top - margin.bottom; // Large enough to allow vertical scroll
 
 var i = 0, duration = 750, root;
 
@@ -226,7 +226,7 @@ function update(source) {
     var nodes = tree.nodes(root).reverse(),
         links = tree.links(nodes);
 
-    nodes.forEach(function (d) { d.y = d.depth * 150; });
+    nodes.forEach(function (d) { d.y = d.depth * 300; });
 
     var node = svg.selectAll("g.node")
         .data(nodes, function (d) { return d.id || (d.id = ++i); });
@@ -237,11 +237,11 @@ function update(source) {
         .on("click", click);
 
     nodeEnter.append("circle")
-        .attr("r", 1e-6)
+        .attr("r", 6)
         .style("fill", function (d) { return d._children ? "lightsteelblue" : "#fff"; });
 
     nodeEnter.append("text")
-        .attr("x", function (d) { return d.children || d._children ? -10 : 15; })
+        .attr("x", function (d) { return d.children || d._children ? -13 : 13; })
         .attr("dy", ".35em")
         .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
         .text(function (d) { return d.name; })
@@ -252,7 +252,7 @@ function update(source) {
         .attr("transform", function (d) { return "translate(" + d.y + "," + d.x + ")"; });
 
     nodeUpdate.select("circle")
-        .attr("r", 4.5)
+        .attr("r", 6)
         .style("fill", function (d) { return d._children ? "lightsteelblue" : "#fff"; });
 
     nodeUpdate.select("text")
