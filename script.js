@@ -1,6 +1,6 @@
 var margin = { top: 20, right: 200, bottom: 20, left: 120 },
-    width = 1800 - margin.right - margin.left,
-    height = 800 - margin.top - margin.bottom;
+    width = 2000 - margin.right - margin.left,
+    height = 1000 - margin.top - margin.bottom;
 
 var i = 0, duration = 750, root;
 
@@ -226,7 +226,7 @@ function update(source) {
     var nodes = tree.nodes(root).reverse(),
         links = tree.links(nodes);
 
-    nodes.forEach(function (d) { d.y = d.depth * 250; });
+    nodes.forEach(function (d) { d.y = d.depth * 150; });
 
     var node = svg.selectAll("g.node")
         .data(nodes, function (d) { return d.id || (d.id = ++i); });
