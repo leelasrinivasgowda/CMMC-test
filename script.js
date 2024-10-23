@@ -1,5 +1,5 @@
 var margin = { top: 20, right: 200, bottom: 20, left: 120 },
-    width = 1200 - margin.right - margin.left,  // Increased width
+    width = 1200 - margin.right - margin.left,
     height = 800 - margin.top - margin.bottom;
 
 var i = 0, duration = 750, root;
@@ -32,10 +32,22 @@ var treeData = {
                                 { name: "Database Server" }
                             ]
                         },
-                        { name: "Workstations" },
-                        { name: "Network Devices" },
-                        { name: "Cloud Infrastructure" },
-                        { name: "OT Devices" }
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
                     ]
                 },
                 {
@@ -49,10 +61,53 @@ var treeData = {
                                 { name: "Database Server" }
                             ]
                         },
-                        { name: "Workstations" },
-                        { name: "Network Devices" }
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
                     ]
                 },
+                {
+                    name: "03.01.03 Access Termination",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         {
@@ -61,17 +116,94 @@ var treeData = {
                 {
                     name: "03.02.01 Literacy Training and Awareness",
                     children: [
-                        { name: "Human Assets" }
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "Security Staff" },
+                                { name: "IT Staff" },
+                                { name: "General Users" }
+                            ]
+                        }
                     ]
                 },
                 {
                     name: "03.02.02 Role-Based Training",
                     children: [
-                        { name: "Human Assets" }
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "Security Staff" },
+                                { name: "IT Staff" },
+                                { name: "General Users" }
+                            ]
+                        }
                     ]
                 }
             ]
         },
+        {
+            name: "3.3 Audit and Accountability",
+            children: [
+                {
+                    name: "03.03.01 Audit Logging",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.03.02 Audit Review and Reporting",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 };
 
@@ -94,7 +226,7 @@ function update(source) {
     var nodes = tree.nodes(root).reverse(),
         links = tree.links(nodes);
 
-    nodes.forEach(function (d) { d.y = d.depth * 350; });  // Increased horizontal spacing
+    nodes.forEach(function (d) { d.y = d.depth * 350; });
 
     var node = svg.selectAll("g.node")
         .data(nodes, function (d) { return d.id || (d.id = ++i); });
@@ -109,7 +241,7 @@ function update(source) {
         .style("fill", function (d) { return d._children ? "lightsteelblue" : "#fff"; });
 
     nodeEnter.append("text")
-        .attr("x", function (d) { return d.children || d._children ? -10 : 15; })  // Shift text to the right
+        .attr("x", function (d) { return d.children || d._children ? -10 : 15; })
         .attr("dy", ".35em")
         .attr("text-anchor", function (d) { return d.children || d._children ? "end" : "start"; })
         .text(function (d) { return d.name; })
