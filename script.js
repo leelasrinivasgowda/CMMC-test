@@ -87,10 +87,7 @@ var treeData = {
                                 { name: "Firewall" }
                             ]
                         },
-                        { name: "Cloud Infrastructure" }
-                    ]
-                },
-                        {
+                 {
                             name: "Workstations",
                             children: [
                                 { name: "Windows Workstation" },
