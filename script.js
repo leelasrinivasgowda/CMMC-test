@@ -29,7 +29,7 @@ var treeData = {
                 {
                     name: "03.01.01 Account Management",
                     children: [
-                        { name: "Servers" },
+                        { name: "Servers", children: [{ name: "Web Server" }, { name: "File Server" }, { name: "Database Server" }] },
                         { name: "Workstations" },
                         { name: "Network Devices" },
                         { name: "Cloud Infrastructure" },
@@ -39,7 +39,7 @@ var treeData = {
                 {
                     name: "03.01.02 Access Enforcement",
                     children: [
-                        { name: "Servers" },
+                        { name: "Servers", children: [{ name: "Web Server" }, { name: "File Server" }, { name: "Database Server" }] },
                         { name: "Workstations" },
                         { name: "Network Devices" }
                     ]
@@ -60,7 +60,7 @@ var treeData = {
                 {
                     name: "03.01.05 Least Privilege",
                     children: [
-                        { name: "Servers" },
+                        { name: "Servers", children: [{ name: "Web Server" }, { name: "File Server" }, { name: "Database Server" }] },
                         { name: "Workstations" },
                         { name: "End-User Devices" }
                     ]
@@ -92,7 +92,7 @@ var treeData = {
                 {
                     name: "03.03.01 Event Logging",
                     children: [
-                        { name: "Servers" },
+                        { name: "Servers", children: [{ name: "Web Server" }, { name: "File Server" }, { name: "Database Server" }] },
                         { name: "Workstations" },
                         { name: "Network Devices" },
                         { name: "Storage Devices" }
@@ -101,7 +101,7 @@ var treeData = {
                 {
                     name: "03.03.02 Audit Record Content",
                     children: [
-                        { name: "Servers" },
+                        { name: "Servers", children: [{ name: "Web Server" }, { name: "File Server" }, { name: "Database Server" }] },
                         { name: "Cloud Infrastructure" }
                     ]
                 },
@@ -114,14 +114,14 @@ var treeData = {
                 {
                     name: "03.04.01 Baseline Configuration",
                     children: [
-                        { name: "Servers" },
+                        { name: "Servers", children: [{ name: "Web Server" }, { name: "File Server" }, { name: "Database Server" }] },
                         { name: "Network Devices" }
                     ]
                 },
                 {
                     name: "03.04.02 Configuration Settings",
                     children: [
-                        { name: "Servers" },
+                        { name: "Servers", children: [{ name: "Web Server" }, { name: "File Server" }, { name: "Database Server" }] },
                         { name: "Network Devices" },
                         { name: "OT Devices" }
                     ]
@@ -135,7 +135,7 @@ var treeData = {
                 {
                     name: "03.05.01 User Identification and Authentication",
                     children: [
-                        { name: "Servers" },
+                        { name: "Servers", children: [{ name: "Web Server" }, { name: "File Server" }, { name: "Database Server" }] },
                         { name: "Workstations" },
                         { name: "Network Devices" }
                     ]
@@ -156,7 +156,7 @@ var treeData = {
                 {
                     name: "03.06.01 Incident Handling",
                     children: [
-                        { name: "Servers" },
+                        { name: "Servers", children: [{ name: "Web Server" }, { name: "File Server" }, { name: "Database Server" }] },
                         { name: "Workstations" },
                         { name: "Network Devices" }
                     ]
@@ -164,7 +164,7 @@ var treeData = {
                 {
                     name: "03.06.02 Incident Monitoring, Reporting, and Response Assistance",
                     children: [
-                        { name: "Servers" },
+                        { name: "Servers", children: [{ name: "Web Server" }, { name: "File Server" }, { name: "Database Server" }] },
                         { name: "Workstations" },
                         { name: "Network Devices" }
                     ]
@@ -172,154 +172,7 @@ var treeData = {
                 // Add other Incident Response sub-controls...
             ]
         },
-        {
-            name: "3.7 Maintenance",
-            children: [
-                {
-                    name: "03.07.04 Maintenance Tools",
-                    children: [
-                        { name: "Servers" },
-                        { name: "Workstations" },
-                        { name: "Network Devices" },
-                        { name: "OT Devices" }
-                    ]
-                },
-                // Add other Maintenance sub-controls...
-            ]
-        },
-        {
-            name: "3.8 Media Protection",
-            children: [
-                {
-                    name: "03.08.01 Media Storage",
-                    children: [
-                        { name: "Servers" },
-                        { name: "Storage Devices" }
-                    ]
-                },
-                {
-                    name: "03.08.02 Media Access",
-                    children: [
-                        { name: "Servers" },
-                        { name: "Storage Devices" }
-                    ]
-                },
-                // Add other Media Protection sub-controls...
-            ]
-        },
-        {
-            name: "3.9 Personnel Security",
-            children: [
-                {
-                    name: "03.09.01 Personnel Screening",
-                    children: [
-                        { name: "Human Assets" }
-                    ]
-                },
-                // Add other Personnel Security sub-controls...
-            ]
-        },
-        {
-            name: "3.10 Physical Protection",
-            children: [
-                {
-                    name: "03.10.01 Physical Access Authorizations",
-                    children: [
-                        { name: "Physical Security Systems" }
-                    ]
-                },
-                // Add other Physical Protection sub-controls...
-            ]
-        },
-        {
-            name: "3.11 Risk Assessment",
-            children: [
-                {
-                    name: "03.11.01 Risk Assessment",
-                    children: [
-                        { name: "Servers" },
-                        { name: "Network Devices" }
-                    ]
-                },
-                // Add other Risk Assessment sub-controls...
-            ]
-        },
-        {
-            name: "3.12 Security Assessment and Monitoring",
-            children: [
-                {
-                    name: "03.12.01 Security Assessment",
-                    children: [
-                        { name: "Servers" },
-                        { name: "Network Devices" }
-                    ]
-                },
-                // Add other Security Assessment sub-controls...
-            ]
-        },
-        {
-            name: "3.13 System and Communications Protection",
-            children: [
-                {
-                    name: "03.13.01 Boundary Protection",
-                    children: [
-                        { name: "Network Devices" },
-                        { name: "Cloud Infrastructure" }
-                    ]
-                },
-                // Add other System and Communications Protection sub-controls...
-            ]
-        },
-        {
-            name: "3.14 System and Information Integrity",
-            children: [
-                {
-                    name: "03.14.01 Flaw Remediation",
-                    children: [
-                        { name: "Servers" },
-                        { name: "Workstations" }
-                    ]
-                },
-                // Add other System and Information Integrity sub-controls...
-            ]
-        },
-        {
-            name: "3.15 Planning",
-            children: [
-                {
-                    name: "03.15.01 Policy and Procedures",
-                    children: [
-                        { name: "Human Assets" }
-                    ]
-                },
-                // Add other Planning sub-controls...
-            ]
-        },
-        {
-            name: "3.16 System and Services Acquisition",
-            children: [
-                {
-                    name: "03.16.01 Security Engineering Principles",
-                    children: [
-                        { name: "Servers" },
-                        { name: "Network Devices" }
-                    ]
-                },
-                // Add other System and Services Acquisition sub-controls...
-            ]
-        },
-        {
-            name: "3.17 Supply Chain Risk Management",
-            children: [
-                {
-                    name: "03.17.01 Supply Chain Risk Management Plan",
-                    children: [
-                        { name: "Supply Chain Processes" }
-                    ]
-                },
-                // Add other Supply Chain Risk Management sub-controls...
-            ]
-        }
+        // Add all remaining control families here as needed
     ]
 };
 
@@ -416,6 +269,7 @@ function update(source) {
     });
 }
 
+// Toggle children on click
 function click(d) {
     if (d.children) {
         d._children = d.children;
