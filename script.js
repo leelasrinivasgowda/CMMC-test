@@ -77,16 +77,19 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.01.03 Access Termination",
+                    name: "03.01.03 Information Flow Enforcement",
                     children: [
                         {
-                            name: "Servers",
+                            name: "Network Devices",
                             children: [
-                                { name: "Web Server" },
-                                { name: "File Server" },
-                                { name: "Database Server" }
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
                             ]
                         },
+                        { name: "Cloud Infrastructure" }
+                    ]
+                },
                         {
                             name: "Workstations",
                             children: [
