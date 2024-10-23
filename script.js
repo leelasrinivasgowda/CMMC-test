@@ -29,15 +29,8 @@ var treeData = {
                             children: [
                                 { name: "Web Server" },
                                 { name: "File Server" },
-                                { name: "Database Server" }
-                            ]
-                        },
-                        {
-                            name: "Workstations",
-                            children: [
-                                { name: "Windows Workstation" },
-                                { name: "Mac Workstation" },
-                                { name: "Linux Workstation" }
+                                { name: "Database Server" },
+                                { name: "Application Server" }
                             ]
                         },
                         {
@@ -45,9 +38,13 @@ var treeData = {
                             children: [
                                 { name: "Router" },
                                 { name: "Switch" },
-                                { name: "Firewall" }
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
                             ]
-                        }
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" }
                     ]
                 },
                 {
