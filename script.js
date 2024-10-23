@@ -53,38 +53,6 @@ var treeData = {
                         { name: "Network Devices" }
                     ]
                 },
-                {
-                    name: "03.01.03 Information Flow Enforcement",
-                    children: [
-                        {
-                            name: "Servers",
-                            children: [
-                                { name: "Web Server" },
-                                { name: "File Server" },
-                                { name: "Database Server" }
-                            ]
-                        },
-                        { name: "Workstations" },
-                        { name: "Network Devices" }
-                    ]
-                }
-            ]
-        },
-        {
-                    name: "03.01.04 Separation of Duties",
-                    children: [
-                        {
-                            name: "Servers",
-                            children: [
-                                { name: "Web Server" },
-                                { name: "File Server" },
-                                { name: "Database Server" }
-                            ]
-                        },
-                        { name: "Workstations" },
-                        { name: "Network Devices" }
-                    ]
-                }
             ]
         },
         {
@@ -126,7 +94,7 @@ function update(source) {
     var nodes = tree.nodes(root).reverse(),
         links = tree.links(nodes);
 
-    nodes.forEach(function (d) { d.y = d.depth * 100; });  // Increased horizontal spacing
+    nodes.forEach(function (d) { d.y = d.depth * 350; });  // Increased horizontal spacing
 
     var node = svg.selectAll("g.node")
         .data(nodes, function (d) { return d.id || (d.id = ++i); });
