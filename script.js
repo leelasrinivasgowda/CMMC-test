@@ -184,7 +184,7 @@ root.y0 = 0;
 function collapse(d) {
     if (d.children) {
         d._children = d.children;
-        d._children.forEach(collapse);
+        d._children.forEach(collapse); // Collapse all children
         d.children = null;
     }
 }
@@ -206,7 +206,7 @@ function update(source) {
     var nodeEnter = node.enter().append("g")
         .attr("class", "node")
         .attr("transform", function (d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
-        .on("click", click);
+        .on("click", click); // Handle node click
 
     nodeEnter.append("circle")
         .attr("r", 1e-6)
