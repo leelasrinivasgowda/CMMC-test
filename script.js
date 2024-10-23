@@ -53,6 +53,38 @@ var treeData = {
                         { name: "Network Devices" }
                     ]
                 },
+                {
+                    name: "03.01.03 Information Flow Enforcement",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Network Devices" }
+                    ]
+                }
+            ]
+        },
+        {
+                    name: "03.01.04 Separation of Duties",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Network Devices" }
+                    ]
+                }
             ]
         },
         {
