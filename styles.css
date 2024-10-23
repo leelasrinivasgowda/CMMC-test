@@ -1,0 +1,29 @@
+#tree-container {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.node circle {
+    fill: #3399ff;
+    stroke: #004d99;
+    stroke-width: 2px;
+}
+
+.node text {
+    font: 12px Arial, sans-serif;
+    fill: #333;
+}
+
+.link {
+    fill: none;
+    stroke: #999;
+    stroke-width: 2px;
+}
+#tree-container svg path {
+    opacity: 0.4;
+}
