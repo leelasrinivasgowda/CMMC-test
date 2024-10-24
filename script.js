@@ -214,8 +214,8 @@ var treeData = {
                             { name: "IT Team" },
                             { name: "Cyber security" }                    ]
                     }
-             ]
-                }  
+                ]
+                },  
             ]
         },
         {
