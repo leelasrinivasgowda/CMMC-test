@@ -306,7 +306,7 @@ var treeData = {
                     ]
                 }
             ]
-        }
+        },
         {
             name: "3.4 Configuration Management",
             children: [
