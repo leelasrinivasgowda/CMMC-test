@@ -114,9 +114,6 @@ var treeData = {
                         children: [
                             { name: "IT Team" },
                             { name: "Cyber security" }                    ]
-                    },
-                    {
-                        
                     }
                 ]
                 }
