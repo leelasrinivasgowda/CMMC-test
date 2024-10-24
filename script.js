@@ -116,6 +116,17 @@ var treeData = {
                             { name: "Cyber security" }                    ]
                     }
                 ]
+                },
+                {
+                name: "03.01.05 Least Privilege",
+                children:[
+                    {
+                        name:"Human Assets",
+                        children: [
+                            { name: "IT Team" },
+                            { name: "Cyber security" }                    ]
+                    }
+                ]
                 }
                 
             ]
