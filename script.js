@@ -44,7 +44,8 @@ var treeData = {
                         },
                         { name: "Workstations" },
                         { name: "Cloud Infrastructure" },
-                        { name: "OT Devices" }
+                        { name: "OT Devices" },
+                        {name: "03.01.04 Separation of Duties"}
                     ]
                 },
                 {
