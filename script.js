@@ -28,23 +28,48 @@ var treeData = {
                             name: "Servers",
                             children: [
                                 { name: "Web Server" },
-                                { name: "File Server" },
-                                { name: "Database Server" },
+                                { name: "Mail Server" },
+                                { name: "Domain controllers" },
                                 { name: "Application Server" }
                             ]
                         },
                         {
-                            name: "Network Devices",
+                            name: "Workstations",
                             children: [
-                                { name: "Router" },
-                                { name: "Switch" },
-                                { name: "Firewall" },
-                                { name: "Load Balancer" }
+                                { name: "Deaktop computers" },
+                                { name: "Laptops" },
+                                { name: "Virtual desktops" }
                             ]
                         },
-                        { name: "Workstations" },
-                        { name: "Cloud Infrastructure" },
-                        { name: "OT Devices" }
+                        { name: "Cloud Infrastructure",
+                          children: [
+                              { name: "Cloud-hosted servers" },
+                              { name: "SaaS applications"}
+                          ]
+                        },
+                        { name: "Security Systems",
+                          children: [
+                              { name: "IAM systems"}
+                          ]
+                        },
+                        { name: "End-user devices",
+                          children: [
+                              { name: "BYOD assets"},
+                          ]
+                        },
+                        { name: "Human Assets",
+                          children: [
+                              { name: "System administrators"},
+                              { name: "IT support staff" },
+                              { name: "Security personnel"} 
+                          ]
+                        },
+                        { name: "Software Assets",
+                          children: [
+                              { name: "Operating systems"},
+                              { name: "Security software"}
+                          ]
+                        }
                     ]
                 },
                 {
@@ -134,6 +159,33 @@ var treeData = {
                 },
                 {
                     name: "03.01.05 Least Privilege",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "03.01.06 Least Privilege – Privileged Accounts",
                     children: [
                         {
                             name: "Servers",
