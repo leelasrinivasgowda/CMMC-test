@@ -44,8 +44,7 @@ var treeData = {
                         },
                         { name: "Workstations" },
                         { name: "Cloud Infrastructure" },
-                        { name: "OT Devices" },
-                        
+                        { name: "OT Devices" }
                     ]
                 },
                 {
@@ -105,117 +104,7 @@ var treeData = {
                             ]
                         }
                     ]
-                },
-                {
-                name: "03.01.04 Separation of Duties",
-                children:[
-                    {
-                        name:"Human Assets",
-                        children: [
-                            { name: "IT Team" },
-                            { name: "Cyber security" }                    ]
-                    }
-                ]
-                },
-                {
-                name: "03.01.05 Least Privilege",
-                children:[
-                    {
-                        name:"Human Assets",
-                        children: [
-                            { name: "IT Team" },
-                            { name: "Cyber security" }                    ]
-                    }
-                ]
-                },
-                {
-                name: "03.01.06 Least Privilege – Privileged Accounts",
-                children:[
-                    {
-                        name:"Human Assets",
-                        children: [
-                            { name: "IT Team" },
-                            { name: "Cyber security" }                    ]
-                    }
-                ]
-                },
-                {
-                name: "03.01.07 Least Privilege – Privileged Functions",
-                children:[
-                    {
-                        name:"Human Assets",
-                        children: [
-                            { name: "IT Team" },
-                            { name: "Cyber security" }                    ]
-                    }
-                ]
-                },
-                {
-                name: "03.01.08 Unsuccessful Logon Attempts",
-                children:[
-                    {
-                        name:"Human Assets",
-                        children: [
-                            { name: "IT Team" },
-                            { name: "Cyber security" }                    ]
-                    }
-                ]
-                },
-                {
-                name: "03.01.09 System Use Notification",
-                children:[
-                    {
-                        name:"Human Assets",
-                        children: [
-                            { name: "IT Team" },
-                            { name: "Cyber security" }                    ]
-                    }
-                ]
-                },
-                {
-                name: "03.01.10 Device Lock",
-                children:[
-                    {
-                        name:"Human Assets",
-                        children: [
-                            { name: "IT Team" },
-                            { name: "Cyber security" }                    ]
-                    }
-                ]
-                },
-                {
-                name: "03.01.11 Session Termination",
-                children:[
-                    {
-                        name:"Human Assets",
-                        children: [
-                            { name: "IT Team" },
-                            { name: "Cyber security" }                    ]
-                    }
-                ]
-                },
-                {
-                name: "03.01.12 Remote Access"
-                children:[
-                    {
-                        name:"Human Assets",
-                        children: [
-                            { name: "IT Team" },
-                            { name: "Cyber security" }                    ]
-                    }
-                ]
-                },
-                {
-                name: "03.01.16 Wireless Access",
-                children:[
-                    {
-                        name:"Human Assets",
-                        children: [
-                            { name: "IT Team" },
-                            { name: "Cyber security" }                    ]
-                    }
-                ]
-                },  
+                }
             ]
         },
         {
