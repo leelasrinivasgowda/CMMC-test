@@ -45,7 +45,7 @@ var treeData = {
                         { name: "Workstations" },
                         { name: "Cloud Infrastructure" },
                         { name: "OT Devices" },
-                        {name: "03.01.04 Separation of Duties"}
+                        
                     ]
                 },
                 {
@@ -105,7 +105,22 @@ var treeData = {
                             ]
                         }
                     ]
+                },
+                {
+                name: "03.01.04 Separation of Duties",
+                children:[
+                    {
+                        name:"Human Assets",
+                        children: [
+                            { name: "IT Team" },
+                            { name: "Cyber security" }                    ]
+                    },
+                    {
+                        
+                    }
+                ]
                 }
+                
             ]
         },
         {
