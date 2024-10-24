@@ -132,6 +132,33 @@ var treeData = {
                         { name: "Human Assets"}
                     ]
                 },
+                {
+                    name: "03.01.05 Least Privilege",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
             ]
         },
         {
