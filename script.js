@@ -108,50 +108,6 @@ var treeData = {
             ]
         },
         {
-            name: "03.01.04 Seperation of Duties",
-            children: [
-                {
-                    name: "Human Assets",
-                    children: [
-                        { name: "IT team" },
-                        { name: "Financial team" },
-                        { name: "Developers" }
-                    ]
-                },
-            ]
-        },
-        {
-            name: "03.01.05 Least Privilege",
-            children: [
-                {
-                    name: "Servers",
-                    children: [
-                        { name: "Web Server" },
-                        { name: "Application Server" },
-                        { name: "File Server" }
-                    ]
-                },
-                {
-                    name: "Workstations",
-                    children: [
-                        { name: "Windows Workstation" },
-                        { name: "Mac Workstation" },
-                        { name: "Linux Workstation" }
-                    ]
-                },
-                {
-                    name: "End-User Devices",
-                    children: [
-                        { name: "BYOD" },
-                        { name: "Mobile Phones" },
-                        { name: "VoIP phones" }
-                    ]
-                },
-            ]
-        },
-    ]
-},
-        {
             name: "3.2 Awareness and Training",
             children: [
                 {
