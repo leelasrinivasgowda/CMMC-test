@@ -2,31 +2,30 @@
 #tree-container {
     width: 100%;
     height: 100vh; /* Full viewport height */
-    overflow: auto; /* Enables scrolling */
-    border: 1px solid #ddd; /* Subtle border for a cleaner look */
+    overflow: scroll; /* Enables scrolling both horizontally and vertically */
+    border: 1px solid #ccc;
     padding: 10px;
-    background-color: #f9f9f9; /* Light background for contrast */
+    background-color: #f4f4f4; /* Light background for contrast */
 }
 
 /* Style for the tree nodes */
 .node circle {
-    fill: #4CAF50; /* Use a professional color for nodes */
-    stroke: #2e7d32; /* Darker green stroke for contrast */
+    fill: #4CAF50; /* Professional node color */
+    stroke: #388E3C; /* Solid darker stroke for contrast */
     stroke-width: 2px;
 }
 
 .node text {
     font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Clean and professional font */
     fill: #333; /* Darker text for readability */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow for better readability */
+    text-shadow: none; /* No text shadow for cleaner look */
 }
 
 /* Style for the links (lines between nodes) */
 .link {
     fill: none;
-    stroke: #999; /* Neutral stroke color */
-    stroke-width: 2px;
-    stroke-dasharray: 4, 2; /* Dashed lines for a modern touch */
+    stroke: #666; /* Darker solid stroke for professional look */
+    stroke-width: 2.5px; /* Slightly thicker lines for a solid feel */
 }
 
 /* Body and html overflow adjustments */
@@ -43,18 +42,20 @@ body, html {
 svg {
     width: 100%; /* Ensures full width of the tree */
     height: auto;
+    overflow: visible; /* Makes sure the entire tree is visible */
 }
 
-/* Scrollbar styling for a modern look */
+/* Scrollbar styling for modern look */
 #tree-container::-webkit-scrollbar {
     width: 10px;
+    height: 10px; /* Ensure the scrollbar shows horizontally as well */
 }
 
 #tree-container::-webkit-scrollbar-thumb {
-    background-color: #aaa; /* Scrollbar thumb */
+    background-color: #888; /* Scrollbar thumb color */
     border-radius: 5px;
 }
 
 #tree-container::-webkit-scrollbar-track {
-    background-color: #f0f0f0; /* Scrollbar track */
+    background-color: #e0e0e0; /* Scrollbar track color */
 }
