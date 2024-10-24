@@ -307,6 +307,141 @@ var treeData = {
                 }
             ]
         }
+        {
+            name: "3.4 Configuration Management",
+            children: [
+                {
+                    name: "03.04.01 Baseline Configuration",
+                    children: [
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "Security Staff" },
+                                { name: "IT Staff" },
+                                { name: "General Users" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.04.02 Configuration Settings",
+                    children: [
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "Security Staff" },
+                                { name: "IT Staff" },
+                                { name: "General Users" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.04.03 Configuration Change Control",
+                    children: [
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "Security Staff" },
+                                { name: "IT Staff" },
+                                { name: "General Users" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.04.04 Impact Analyses",
+                    children: [
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "Security Staff" },
+                                { name: "IT Staff" },
+                                { name: "General Users" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.04.05 Access Restrictions for Change",
+                    children: [
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "Security Staff" },
+                                { name: "IT Staff" },
+                                { name: "General Users" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.04.06 Least Functionality",
+                    children: [
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "Security Staff" },
+                                { name: "IT Staff" },
+                                { name: "General Users" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.04.08 Authorized Software – Allow by Exception",
+                    children: [
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "Security Staff" },
+                                { name: "IT Staff" },
+                                { name: "General Users" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.04.10 System Component Inventory",
+                    children: [
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "Security Staff" },
+                                { name: "IT Staff" },
+                                { name: "General Users" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.04.11 Information Location",
+                    children: [
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "Security Staff" },
+                                { name: "IT Staff" },
+                                { name: "General Users" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.04.12 System and Component Configuration for High-Risk Areas",
+                    children: [
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "Security Staff" },
+                                { name: "IT Staff" },
+                                { name: "General Users" }
+                            ]
+                        }
+                    ]
+                },
+            ]
+        },
     ]
 };
 
