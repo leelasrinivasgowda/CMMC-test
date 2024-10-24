@@ -105,6 +105,19 @@ var treeData = {
                         }
                     ]
                 }
+                {
+                    name: "03.01.04 Separation of Duties",
+                    children: [
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "IT personel" },
+                                { name: "Finance personel" },
+                                { name: "General personel" }
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         {
