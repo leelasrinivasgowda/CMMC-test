@@ -1,61 +1,27 @@
-/* Make the container scrollable and enclosed in a box */
+/* Make the container scrollable */
 #tree-container {
     width: 100%;
     height: 100vh; /* Full viewport height */
-    overflow: auto; /* Enable scrolling for both directions */
-    border: 3px solid #333; /* Solid, dark border around the tree */
-    padding: 20px;
-    background-color: #fff; /* Clean white background */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
-}
-
-/* Style for the tree nodes */
-.node circle {
-    fill: #4CAF50; /* Green color for nodes */
-    stroke: #2E7D32; /* Darker stroke for contrast */
-    stroke-width: 2.5px; /* Solid stroke around nodes */
+    overflow: auto; /* Enables scrolling */
+    border: 1px solid #ccc;
+    padding: 10px;
 }
 
 .node text {
-    font: 14px 'Arial', sans-serif; /* Professional, clean font */
-    fill: #333; /* Dark text color */
+    font: 14px sans-serif;
 }
 
-/* Style for the links (branches) with lower opacity but solid appearance */
 .link {
     fill: none;
-    stroke: #000; /* Black color for a solid, professional look */
-    stroke-opacity: 0.3; /* Lower opacity to soften the visual impact */
-    stroke-width: 2px; /* Solid thickness for the branches */
+    stroke: #ccc;
+    stroke-width: 2px;
 }
 
-/* Ensure body and html allows proper scrollability */
+/* Add some margin for scrollability on bottom */
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
     overflow: hidden;
-}
-
-/* Customize the SVG to allow the content to adapt */
-svg {
-    width: 100%;
-    height: auto;
-    overflow: visible; /* Ensures the entire tree structure is visible */
-}
-
-/* Scrollbar styling for a clean, modern look */
-#tree-container::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-}
-
-#tree-container::-webkit-scrollbar-thumb {
-    background-color: #888;
-    border-radius: 5px;
-}
-
-#tree-container::-webkit-scrollbar-track {
-    background-color: #f0f0f0;
 }
