@@ -442,6 +442,870 @@ var treeData = {
                 },
             ]
         },
+        {
+            name: "3.5 Identification and Authentication",
+            children: [
+                {
+                    name: "03.05.01 User Identification and Authentication",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web servers" },
+                                { name: "Domain Controllers" },
+                                { name: "Application servers" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Desktops" },
+                                { name: "Laptops" },
+                                { name: "Mobile devices" }
+                            ]
+                        },
+                        {
+                            name: "Cloud Infrastructure",
+                            children: [
+                                { name: "Cloud-hosted servers" },
+                                { name: "SaaS applications" }
+                            ]
+                        },
+                        {
+                            name: "Security Systems",
+                            children: [
+                                { name: "Identity and Access Management(IAM) systems" },
+                                { name: "SIEM tools" }
+                            ]
+                        },
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "System administrators" },
+                                { name: "Security personnel" },
+                                { name: "End-users" }
+                            ]
+                        },
+                        
+                    ]
+                },
+                {
+                    name: "03.05.02 Device Identification and Authentication",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web servers" },
+                                { name: "Database servers" },
+                                { name: "Domain controllers" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Desktops" },
+                                { name: "Laptops" },
+                                { name: "Mobile devices" },
+                                { name: "Thin clients" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Routers" },
+                                { name: "Firewalls" },
+                                { name: "VPN Gateways" }
+                            ]
+                        },
+                        {
+                            name: "IoT Devices",
+                            children: [
+                                { name: "Industrail Control Systems" },
+                                { name: "SCADA" },
+                                { name: "Embedded systems" }
+                            ]
+                        },
+                        {
+                            name: "Cloud Infrastructure",
+                            children: [
+                                { name: "Cloud-hosted servers" },
+                                { name: "Virtual machines" }
+                            ]
+                        },
+                        {
+                            name: "Security Systems",
+                            children: [
+                                { name: "IAM" },
+                                { name: "MFA devices" }
+                            ]
+                        },
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "System administrator" },
+                                { name: "IT support staff" }
+                            ]
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            name: "3.6 Incidence Response",
+            children: [
+                {
+                    name: "03.03.01 Audit Logging",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.03.02 Audit Review and Reporting",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: "3.7 Maintenance",
+            children: [
+                {
+                    name: "03.03.01 Audit Logging",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.03.02 Audit Review and Reporting",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: "3.8 Media Protection",
+            children: [
+                {
+                    name: "03.03.01 Audit Logging",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.03.02 Audit Review and Reporting",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: "3.9 Personnel Security",
+            children: [
+                {
+                    name: "03.03.01 Audit Logging",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.03.02 Audit Review and Reporting",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: "3.10 Physical protection",
+            children: [
+                {
+                    name: "03.03.01 Audit Logging",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.03.02 Audit Review and Reporting",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: "3.11 Risk Assessment",
+            children: [
+                {
+                    name: "03.03.01 Audit Logging",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.03.02 Audit Review and Reporting",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: "3.12 Security Assessment ans Monitoring",
+            children: [
+                {
+                    name: "03.03.01 Audit Logging",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.03.02 Audit Review and Reporting",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: "3.13 System and Communications Protection",
+            children: [
+                {
+                    name: "03.03.01 Audit Logging",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.03.02 Audit Review and Reporting",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: "3.14 System and Information Integrity",
+            children: [
+                {
+                    name: "03.03.01 Audit Logging",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.03.02 Audit Review and Reporting",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: "3.15 Planning",
+            children: [
+                {
+                    name: "03.03.01 Audit Logging",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.03.02 Audit Review and Reporting",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: "3.16 System and Services Acquisition",
+            children: [
+                {
+                    name: "03.03.01 Audit Logging",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.03.02 Audit Review and Reporting",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: "3.17 Supply Chain Management",
+            children: [
+                {
+                    name: "03.03.01 Audit Logging",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "03.03.02 Audit Review and Reporting",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
     ]
 };
 
