@@ -36,7 +36,7 @@ var treeData = {
                         {
                             name: "Workstations",
                             children: [
-                                { name: "Deaktop computers" },
+                                { name: "Desktop computers" },
                                 { name: "Laptops" },
                                 { name: "Virtual desktops" }
                             ]
