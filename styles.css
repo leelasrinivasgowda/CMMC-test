@@ -25,7 +25,7 @@
 .link {
     fill: none;
     stroke: #000; /* Black color for a solid, professional look */
-    stroke-opacity: 0.6; /* Lower opacity to soften the visual impact */
+    stroke-opacity: 0.3; /* Lower opacity to soften the visual impact */
     stroke-width: 2px; /* Solid thickness for the branches */
 }
 
