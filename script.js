@@ -211,6 +211,276 @@ var treeData = {
                         { name: "Human Assets"}
                     ]
                 },
+                {
+                    name: "03.01.07 Least Privilege – Privileged Functions",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "03.01.08 Unsuccessful Logon Attempts",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "03.01.09 System Use Notification",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "03.01.10 Device Lock",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "03.01.11 Session Termination",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "03.01.12 Remote Access",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "03.01.16 Wireless Access",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "03.01.18 Access Control for Mobile Devices",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "03.01.20 Use of External Systems",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "03.01.22 Publicly Accessible Content",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
             ]
         },
         {
