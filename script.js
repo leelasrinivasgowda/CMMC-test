@@ -1856,7 +1856,7 @@ var treeData = {
             name: "3.8 Media Protection",
             children: [
                 {
-                    name: "03.03.01 Audit Logging",
+                    name: "3.08.01: CUI Media Protection",
                     children: [
                         {
                             name: "Servers",
@@ -1885,7 +1885,210 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.03.02 Audit Review and Reporting",
+                    name: "3.08.02: Media Access Limitation",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.08.03: Media Sanitization & Disposal",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.08.04: CUI Media Marking",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.08.05: Media Transport Control",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.08.06: Encrypted Media Transport",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.08.07: Removable Media Control",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.08.08: Prohibition of Unowned Storage Devices",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.08.09: Backup Confidentiality Protection",
                     children: [
                         {
                             name: "Servers",
@@ -1919,7 +2122,7 @@ var treeData = {
             name: "3.9 Personnel Security",
             children: [
                 {
-                    name: "03.03.01 Audit Logging",
+                    name: "3.09.01: Personnel Screening for CUI Access",
                     children: [
                         {
                             name: "Servers",
@@ -1948,7 +2151,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.03.02 Audit Review and Reporting",
+                    name: "3.09.02: CUI Protection After Personnel Actions",
                     children: [
                         {
                             name: "Servers",
@@ -1982,7 +2185,7 @@ var treeData = {
             name: "3.10 Physical protection",
             children: [
                 {
-                    name: "03.03.01 Audit Logging",
+                    name: "3.10.01: Physical Access Control",
                     children: [
                         {
                             name: "Servers",
@@ -2011,7 +2214,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.03.02 Audit Review and Reporting",
+                    name: "3.10.02: Facility & Infrastructure Protection",
                     children: [
                         {
                             name: "Servers",
@@ -2038,14 +2241,130 @@ var treeData = {
                             ]
                         }
                     ]
-                }
+                },
+                {
+                    name: "3.10.03: Visitor Escort & Monitoring",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.10.04: Physical Access Logging",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.10.05: Physical Access Device Control",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.10.06: CUI Safeguarding at Alternate Sites",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
             ]
         },
         {
             name: "3.11 Risk Assessment",
             children: [
                 {
-                    name: "03.03.01 Audit Logging",
+                    name: "3.11.01: Risk Assessment for Organizational Systems",
                     children: [
                         {
                             name: "Servers",
@@ -2074,7 +2393,36 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.03.02 Audit Review and Reporting",
+                    name: "3.11.02: Vulnerability Scanning",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.11.03: Vulnerability Remediation",
                     children: [
                         {
                             name: "Servers",
@@ -2108,7 +2456,7 @@ var treeData = {
             name: "3.12 Security Assessment",
             children: [
                 {
-                    name: "03.03.01 Audit Logging",
+                    name: "3.12.01: Security Control Assessment",
                     children: [
                         {
                             name: "Servers",
@@ -2137,7 +2485,65 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.03.02 Audit Review and Reporting",
+                    name: "3.12.02: Corrective Action Plans",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.12.03: Ongoing Security Control Monitoring",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.12.04: System Security Plans Documentation",
                     children: [
                         {
                             name: "Servers",
@@ -2171,7 +2577,7 @@ var treeData = {
             name: "3.13 System and Communications Protection",
             children: [
                 {
-                    name: "03.03.01 Audit Logging",
+                    name: "3.13.01: Communication Monitoring & Protection",
                     children: [
                         {
                             name: "Servers",
@@ -2200,7 +2606,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.03.02 Audit Review and Reporting",
+                    name: "3.13.02: Secure System Design Principles",
                     children: [
                         {
                             name: "Servers",
@@ -2227,14 +2633,420 @@ var treeData = {
                             ]
                         }
                     ]
-                }
+                },
+                {
+                    name: "3.13.03: Separation of User & System Management Functions",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.13.04: Prevent Unauthorized Information Transfer",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.13.05: Public/Private Network Segmentation",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.13.06: Default Deny Network Policy",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.13.07: Split Tunneling Prevention",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.13.08: Encryption for CUI Transmission",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.13.09: Session Termination",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.13.10: Cryptographic Key Management",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.13.11: FIPS-Validated Cryptography",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.13.12: Remote Activation Control for Collaborative Devices",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.13.13: Mobile Code Control",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.13.14: VoIP Control & Monitoring",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.13.15: Session Authenticity Protection",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.13.16: CUI Confidentiality at Rest",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
             ]
         },
         {
             name: "3.14 System and Information Integrity",
             children: [
                 {
-                    name: "03.03.01 Audit Logging",
+                    name: "3.14.01: System Flaw Correction",
                     children: [
                         {
                             name: "Servers",
@@ -2263,7 +3075,152 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.03.02 Audit Review and Reporting",
+                    name: "3.14.02: Malicious Code Protection",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.14.03: Security Alerts Monitoring",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.14.04: Malicious Code Protection Updates",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.14.05: Periodic & Real-Time Scans",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.14.06: Attack & Indicator Detection",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.14.07: Unauthorized Use Detection",
                     children: [
                         {
                             name: "Servers",
