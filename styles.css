@@ -90,10 +90,10 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: 14px;
-    color: #000000;
-    border-top: 1px solid #ccc;
+    color: #000000; /* Dark text for readability */
+    border-top: 1px solid #ccc; /* Light gray border for separation */
     margin-top: 20px;
-    background-color: #0066cc;
+    background-color: #0066cc; /* Matching background to body */
 }
 
 footer p {
@@ -102,18 +102,21 @@ footer p {
 
 .social-media {
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social-icon {
-    font-size: 20px;
-    margin: 0 10px;
+    font-size: 24px; /* Adjusted for better visibility */
+    margin: 0 15px; /* Increased spacing between icons */
     color: #333;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .social-icon:hover {
-    color: #0066cc; /* Change color on hover */
+    color: #0066cc; /* Change color to match header blue on hover */
 }
 
 .social-icon.facebook:hover {
@@ -194,3 +197,4 @@ footer p {
         font-size: 18px;
     }
 }
+
