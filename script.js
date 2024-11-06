@@ -102,7 +102,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.01.03 Information Flow Enforcement",
+                    name: "3.01.03: Controlled Data Flow",
                     children: [
                         {
                             name: "Network Devices",
@@ -185,7 +185,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.01.06 Least Privilege – Privileged Accounts",
+                    name: "3.01.06: Non-Privileged Access",
                     children: [
                         {
                             name: "Servers",
@@ -212,7 +212,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.01.07 Least Privilege – Privileged Functions",
+                    name: "3.01.07: Privileged Function Control & Logging",
                     children: [
                         {
                             name: "Servers",
@@ -266,7 +266,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.01.09 System Use Notification",
+                    name: "3.01.09: Privacy & Security Notices",
                     children: [
                         {
                             name: "Servers",
@@ -293,7 +293,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.01.10 Device Lock",
+                    name: "3.01.10: Session Lock",
                     children: [
                         {
                             name: "Servers",
@@ -320,7 +320,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.01.11 Session Termination",
+                    name: "3.01.11: Auto Session Termination",
                     children: [
                         {
                             name: "Servers",
@@ -347,7 +347,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.01.12 Remote Access",
+                    name: "3.01.12: Remote Access Monitoring",
                     children: [
                         {
                             name: "Servers",
@@ -374,7 +374,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.01.16 Wireless Access",
+                    name: "3.01.13: Cryptographic Protection for Remote Access",
                     children: [
                         {
                             name: "Servers",
@@ -401,7 +401,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.01.18 Access Control for Mobile Devices",
+                    name: "3.01.14: Managed Remote Access Routing",
                     children: [
                         {
                             name: "Servers",
@@ -428,7 +428,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.01.20 Use of External Systems",
+                    name: "3.01.15: Privileged Remote Access Authorization",
                     children: [
                         {
                             name: "Servers",
@@ -455,7 +455,169 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.01.22 Publicly Accessible Content",
+                    name: "3.01.16: Wireless Access Authorization",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "3.01.17: Wireless Protection",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "3.01.18: Mobile Device Connection Control",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "3.01.19: Mobile Device Encryption",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "3.01.20: External System Control",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "3.01.21: Portable Storage Limitation",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" },
+                                { name: "Application Server" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" },
+                                { name: "Load Balancer" }
+                            ]
+                        },
+                        { name: "Workstations" },
+                        { name: "Cloud Infrastructure" },
+                        { name: "OT Devices" },
+                        { name: "Human Assets"}
+                    ]
+                },
+                {
+                    name: "3.01.22: Public System Content Control",
                     children: [
                         {
                             name: "Servers",
@@ -487,7 +649,7 @@ var treeData = {
             name: "3.2 Awareness and Training",
             children: [
                 {
-                    name: "03.02.01 Literacy Training and Awareness",
+                    name: "3.02.01: Security Risk Awareness",
                     children: [
                         {
                             name: "Human Assets",
@@ -500,7 +662,20 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.02.02 Role-Based Training",
+                    name: "3.02.02: Security Training for Duties",
+                    children: [
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "Security Staff" },
+                                { name: "IT Staff" },
+                                { name: "General Users" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.02.03: Insider Threat Awareness",
                     children: [
                         {
                             name: "Human Assets",
@@ -518,7 +693,7 @@ var treeData = {
             name: "3.3 Audit and Accountability",
             children: [
                 {
-                    name: "03.03.01 Audit Logging",
+                    name: "3.03.01: Audit Log Retention",
                     children: [
                         {
                             name: "Servers",
@@ -547,7 +722,210 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.03.02 Audit Review and Reporting",
+                    name: "3.03.02: User Accountability",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.03.03: Event Log Review",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.03.04: Audit Failure Alerts",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.03.05: Audit Analysis & Correlation",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.03.06: Report Generation for Audit",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.03.07: Time Synchronization for Audit Logs",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.03.08: Audit Data Protection",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.03.09: Privileged Audit Management",
                     children: [
                         {
                             name: "Servers",
@@ -581,7 +959,7 @@ var treeData = {
             name: "3.4 Configuration Management",
             children: [
                 {
-                    name: "03.04.01 Baseline Configuration",
+                    name: "3.04.01: Baseline Configurations & Inventory",
                     children: [
                         {
                             name: "Human Assets",
@@ -594,7 +972,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.04.02 Configuration Settings",
+                    name: "3.04.02: Security Configuration Settings",
                     children: [
                         {
                             name: "Human Assets",
@@ -607,7 +985,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.04.03 Configuration Change Control",
+                    name: "3.04.03: Change Management Tracking",
                     children: [
                         {
                             name: "Human Assets",
@@ -620,7 +998,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.04.04 Impact Analyses",
+                    name: "3.04.04: Security Impact Analysis",
                     children: [
                         {
                             name: "Human Assets",
@@ -659,7 +1037,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.04.08 Authorized Software – Allow by Exception",
+                    name: "3.04.07: Nonessential Services Restriction",
                     children: [
                         {
                             name: "Human Assets",
@@ -672,7 +1050,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.04.10 System Component Inventory",
+                    name: "3.04.08: Software Authorization (White/Blacklisting)",
                     children: [
                         {
                             name: "Human Assets",
@@ -685,20 +1063,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.04.11 Information Location",
-                    children: [
-                        {
-                            name: "Human Assets",
-                            children: [
-                                { name: "Security Staff" },
-                                { name: "IT Staff" },
-                                { name: "General Users" }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    name: "03.04.12 System and Component Configuration for High-Risk Areas",
+                    name: "3.04.09: User-Installed Software Control",
                     children: [
                         {
                             name: "Human Assets",
@@ -716,7 +1081,7 @@ var treeData = {
             name: "3.5 Identification and Authentication",
             children: [
                 {
-                    name: "03.05.01 User Identification and Authentication",
+                    name: "3.05.01: User & Device Identification",
                     children: [
                         {
                             name: "Servers",
@@ -760,7 +1125,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.05.02 Device Identification and Authentication",
+                    name: "3.05.02: Identity Authentication",
                     children: [
                         {
                             name: "Servers",
@@ -817,6 +1182,402 @@ var treeData = {
                             ]
                         },
                     ]
+                },
+                {
+                    name: "3.05.03: Multifactor Authentication (MFA)",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web servers" },
+                                { name: "Domain Controllers" },
+                                { name: "Application servers" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Desktops" },
+                                { name: "Laptops" },
+                                { name: "Mobile devices" }
+                            ]
+                        },
+                        {
+                            name: "Cloud Infrastructure",
+                            children: [
+                                { name: "Cloud-hosted servers" },
+                                { name: "SaaS applications" }
+                            ]
+                        },
+                        {
+                            name: "Security Systems",
+                            children: [
+                                { name: "Identity and Access Management(IAM) systems" },
+                                { name: "SIEM tools" }
+                            ]
+                        },
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "System administrators" },
+                                { name: "Security personnel" },
+                                { name: "End-users" }
+                            ]
+                        },
+                        
+                    ]
+                },
+                {
+                    name: "3.05.04: Replay-Resistant Authentication",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web servers" },
+                                { name: "Domain Controllers" },
+                                { name: "Application servers" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Desktops" },
+                                { name: "Laptops" },
+                                { name: "Mobile devices" }
+                            ]
+                        },
+                        {
+                            name: "Cloud Infrastructure",
+                            children: [
+                                { name: "Cloud-hosted servers" },
+                                { name: "SaaS applications" }
+                            ]
+                        },
+                        {
+                            name: "Security Systems",
+                            children: [
+                                { name: "Identity and Access Management(IAM) systems" },
+                                { name: "SIEM tools" }
+                            ]
+                        },
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "System administrators" },
+                                { name: "Security personnel" },
+                                { name: "End-users" }
+                            ]
+                        },
+                        
+                    ]
+                },
+                {
+                    name: "3.05.05: Identifier Reuse Prevention",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web servers" },
+                                { name: "Domain Controllers" },
+                                { name: "Application servers" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Desktops" },
+                                { name: "Laptops" },
+                                { name: "Mobile devices" }
+                            ]
+                        },
+                        {
+                            name: "Cloud Infrastructure",
+                            children: [
+                                { name: "Cloud-hosted servers" },
+                                { name: "SaaS applications" }
+                            ]
+                        },
+                        {
+                            name: "Security Systems",
+                            children: [
+                                { name: "Identity and Access Management(IAM) systems" },
+                                { name: "SIEM tools" }
+                            ]
+                        },
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "System administrators" },
+                                { name: "Security personnel" },
+                                { name: "End-users" }
+                            ]
+                        },
+                        
+                    ]
+                },
+                {
+                    name: "3.05.06: Inactive ID Disabling",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web servers" },
+                                { name: "Domain Controllers" },
+                                { name: "Application servers" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Desktops" },
+                                { name: "Laptops" },
+                                { name: "Mobile devices" }
+                            ]
+                        },
+                        {
+                            name: "Cloud Infrastructure",
+                            children: [
+                                { name: "Cloud-hosted servers" },
+                                { name: "SaaS applications" }
+                            ]
+                        },
+                        {
+                            name: "Security Systems",
+                            children: [
+                                { name: "Identity and Access Management(IAM) systems" },
+                                { name: "SIEM tools" }
+                            ]
+                        },
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "System administrators" },
+                                { name: "Security personnel" },
+                                { name: "End-users" }
+                            ]
+                        },
+                        
+                    ]
+                },
+                {
+                    name: "3.05.07: Password Complexity Enforcement",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web servers" },
+                                { name: "Domain Controllers" },
+                                { name: "Application servers" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Desktops" },
+                                { name: "Laptops" },
+                                { name: "Mobile devices" }
+                            ]
+                        },
+                        {
+                            name: "Cloud Infrastructure",
+                            children: [
+                                { name: "Cloud-hosted servers" },
+                                { name: "SaaS applications" }
+                            ]
+                        },
+                        {
+                            name: "Security Systems",
+                            children: [
+                                { name: "Identity and Access Management(IAM) systems" },
+                                { name: "SIEM tools" }
+                            ]
+                        },
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "System administrators" },
+                                { name: "Security personnel" },
+                                { name: "End-users" }
+                            ]
+                        },
+                        
+                    ]
+                },
+                {
+                    name: "3.05.08: Password Reuse Restriction",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web servers" },
+                                { name: "Domain Controllers" },
+                                { name: "Application servers" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Desktops" },
+                                { name: "Laptops" },
+                                { name: "Mobile devices" }
+                            ]
+                        },
+                        {
+                            name: "Cloud Infrastructure",
+                            children: [
+                                { name: "Cloud-hosted servers" },
+                                { name: "SaaS applications" }
+                            ]
+                        },
+                        {
+                            name: "Security Systems",
+                            children: [
+                                { name: "Identity and Access Management(IAM) systems" },
+                                { name: "SIEM tools" }
+                            ]
+                        },
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "System administrators" },
+                                { name: "Security personnel" },
+                                { name: "End-users" }
+                            ]
+                        },
+                        
+                    ]
+                },
+                {
+                    name: "3.05.09: Temporary Password Requirement",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web servers" },
+                                { name: "Domain Controllers" },
+                                { name: "Application servers" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Desktops" },
+                                { name: "Laptops" },
+                                { name: "Mobile devices" }
+                            ]
+                        },
+                        {
+                            name: "Cloud Infrastructure",
+                            children: [
+                                { name: "Cloud-hosted servers" },
+                                { name: "SaaS applications" }
+                            ]
+                        },
+                        {
+                            name: "Security Systems",
+                            children: [
+                                { name: "Identity and Access Management(IAM) systems" },
+                                { name: "SIEM tools" }
+                            ]
+                        },
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "System administrators" },
+                                { name: "Security personnel" },
+                                { name: "End-users" }
+                            ]
+                        },
+                        
+                    ]
+                },
+                {
+                    name: "3.05.10: Cryptographic Password Protection",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web servers" },
+                                { name: "Domain Controllers" },
+                                { name: "Application servers" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Desktops" },
+                                { name: "Laptops" },
+                                { name: "Mobile devices" }
+                            ]
+                        },
+                        {
+                            name: "Cloud Infrastructure",
+                            children: [
+                                { name: "Cloud-hosted servers" },
+                                { name: "SaaS applications" }
+                            ]
+                        },
+                        {
+                            name: "Security Systems",
+                            children: [
+                                { name: "Identity and Access Management(IAM) systems" },
+                                { name: "SIEM tools" }
+                            ]
+                        },
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "System administrators" },
+                                { name: "Security personnel" },
+                                { name: "End-users" }
+                            ]
+                        },
+                        
+                    ]
+                },
+                {
+                    name: "3.05.11: Authentication Feedback Obfuscation",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web servers" },
+                                { name: "Domain Controllers" },
+                                { name: "Application servers" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Desktops" },
+                                { name: "Laptops" },
+                                { name: "Mobile devices" }
+                            ]
+                        },
+                        {
+                            name: "Cloud Infrastructure",
+                            children: [
+                                { name: "Cloud-hosted servers" },
+                                { name: "SaaS applications" }
+                            ]
+                        },
+                        {
+                            name: "Security Systems",
+                            children: [
+                                { name: "Identity and Access Management(IAM) systems" },
+                                { name: "SIEM tools" }
+                            ]
+                        },
+                        {
+                            name: "Human Assets",
+                            children: [
+                                { name: "System administrators" },
+                                { name: "Security personnel" },
+                                { name: "End-users" }
+                            ]
+                        },
+                        
+                    ]
                 }
             ]
         },
@@ -824,7 +1585,7 @@ var treeData = {
             name: "3.6 Incidence Response",
             children: [
                 {
-                    name: "03.03.01 Audit Logging",
+                    name: "3.06.01: Incident Handling Capability",
                     children: [
                         {
                             name: "Servers",
@@ -853,7 +1614,36 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.03.02 Audit Review and Reporting",
+                    name: "3.06.02: Incident Tracking & Reporting",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.06.03: Incident Response Testing",
                     children: [
                         {
                             name: "Servers",
@@ -887,7 +1677,7 @@ var treeData = {
             name: "3.7 Maintenance",
             children: [
                 {
-                    name: "03.03.01 Audit Logging",
+                    name: "3.07.01: System Maintenance",
                     children: [
                         {
                             name: "Servers",
@@ -916,7 +1706,7 @@ var treeData = {
                     ]
                 },
                 {
-                    name: "03.03.02 Audit Review and Reporting",
+                    name: "3.07.02: Maintenance Tool & Personnel Control",
                     children: [
                         {
                             name: "Servers",
@@ -943,7 +1733,123 @@ var treeData = {
                             ]
                         }
                     ]
-                }
+                },
+                {
+                    name: "3.07.03: Off-Site Equipment Sanitization",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.07.04: Diagnostic Media Check",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.07.05: MFA for Remote Maintenance",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "3.07.06: Maintenance Supervision",
+                    children: [
+                        {
+                            name: "Servers",
+                            children: [
+                                { name: "Web Server" },
+                                { name: "File Server" },
+                                { name: "Database Server" }
+                            ]
+                        },
+                        {
+                            name: "Workstations",
+                            children: [
+                                { name: "Windows Workstation" },
+                                { name: "Mac Workstation" },
+                                { name: "Linux Workstation" }
+                            ]
+                        },
+                        {
+                            name: "Network Devices",
+                            children: [
+                                { name: "Router" },
+                                { name: "Switch" },
+                                { name: "Firewall" }
+                            ]
+                        }
+                    ]
+                },
             ]
         },
         {
@@ -1199,7 +2105,7 @@ var treeData = {
             ]
         },
         {
-            name: "3.12 Security Assessment ans Monitoring",
+            name: "3.12 Security Assessment",
             children: [
                 {
                     name: "03.03.01 Audit Logging",
@@ -1326,195 +2232,6 @@ var treeData = {
         },
         {
             name: "3.14 System and Information Integrity",
-            children: [
-                {
-                    name: "03.03.01 Audit Logging",
-                    children: [
-                        {
-                            name: "Servers",
-                            children: [
-                                { name: "Web Server" },
-                                { name: "File Server" },
-                                { name: "Database Server" }
-                            ]
-                        },
-                        {
-                            name: "Workstations",
-                            children: [
-                                { name: "Windows Workstation" },
-                                { name: "Mac Workstation" },
-                                { name: "Linux Workstation" }
-                            ]
-                        },
-                        {
-                            name: "Network Devices",
-                            children: [
-                                { name: "Router" },
-                                { name: "Switch" },
-                                { name: "Firewall" }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    name: "03.03.02 Audit Review and Reporting",
-                    children: [
-                        {
-                            name: "Servers",
-                            children: [
-                                { name: "Web Server" },
-                                { name: "File Server" },
-                                { name: "Database Server" }
-                            ]
-                        },
-                        {
-                            name: "Workstations",
-                            children: [
-                                { name: "Windows Workstation" },
-                                { name: "Mac Workstation" },
-                                { name: "Linux Workstation" }
-                            ]
-                        },
-                        {
-                            name: "Network Devices",
-                            children: [
-                                { name: "Router" },
-                                { name: "Switch" },
-                                { name: "Firewall" }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            name: "3.15 Planning",
-            children: [
-                {
-                    name: "03.03.01 Audit Logging",
-                    children: [
-                        {
-                            name: "Servers",
-                            children: [
-                                { name: "Web Server" },
-                                { name: "File Server" },
-                                { name: "Database Server" }
-                            ]
-                        },
-                        {
-                            name: "Workstations",
-                            children: [
-                                { name: "Windows Workstation" },
-                                { name: "Mac Workstation" },
-                                { name: "Linux Workstation" }
-                            ]
-                        },
-                        {
-                            name: "Network Devices",
-                            children: [
-                                { name: "Router" },
-                                { name: "Switch" },
-                                { name: "Firewall" }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    name: "03.03.02 Audit Review and Reporting",
-                    children: [
-                        {
-                            name: "Servers",
-                            children: [
-                                { name: "Web Server" },
-                                { name: "File Server" },
-                                { name: "Database Server" }
-                            ]
-                        },
-                        {
-                            name: "Workstations",
-                            children: [
-                                { name: "Windows Workstation" },
-                                { name: "Mac Workstation" },
-                                { name: "Linux Workstation" }
-                            ]
-                        },
-                        {
-                            name: "Network Devices",
-                            children: [
-                                { name: "Router" },
-                                { name: "Switch" },
-                                { name: "Firewall" }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            name: "3.16 System and Services Acquisition",
-            children: [
-                {
-                    name: "03.03.01 Audit Logging",
-                    children: [
-                        {
-                            name: "Servers",
-                            children: [
-                                { name: "Web Server" },
-                                { name: "File Server" },
-                                { name: "Database Server" }
-                            ]
-                        },
-                        {
-                            name: "Workstations",
-                            children: [
-                                { name: "Windows Workstation" },
-                                { name: "Mac Workstation" },
-                                { name: "Linux Workstation" }
-                            ]
-                        },
-                        {
-                            name: "Network Devices",
-                            children: [
-                                { name: "Router" },
-                                { name: "Switch" },
-                                { name: "Firewall" }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    name: "03.03.02 Audit Review and Reporting",
-                    children: [
-                        {
-                            name: "Servers",
-                            children: [
-                                { name: "Web Server" },
-                                { name: "File Server" },
-                                { name: "Database Server" }
-                            ]
-                        },
-                        {
-                            name: "Workstations",
-                            children: [
-                                { name: "Windows Workstation" },
-                                { name: "Mac Workstation" },
-                                { name: "Linux Workstation" }
-                            ]
-                        },
-                        {
-                            name: "Network Devices",
-                            children: [
-                                { name: "Router" },
-                                { name: "Switch" },
-                                { name: "Firewall" }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            name: "3.17 Supply Chain Management",
             children: [
                 {
                     name: "03.03.01 Audit Logging",
